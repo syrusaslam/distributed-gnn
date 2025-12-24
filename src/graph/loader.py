@@ -64,7 +64,6 @@ def load_cora_dataset(data_dir: str = "data/cora") -> Tuple[nx.Graph, Dict, Dict
     """
     try:
         from torch_geometric.datasets import Planetoid
-        import torch
     except ImportError:
         raise ImportError("torch_geometric is required to load Cora dataset. "
                          "Install with: pip install torch-geometric")
