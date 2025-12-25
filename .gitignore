@@ -33,6 +33,9 @@ ENV/
 *.swo
 *~
 
+# Claude Code
+.claude/
+
 # Project specific
 data/
 checkpoints/
