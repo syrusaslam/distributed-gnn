@@ -4,11 +4,11 @@ A distributed system for training Graph Neural Networks (GNNs) on large-scale gr
 
 ## Features
 
-- 🚀 **Distributed Training**: Partition graphs across multiple workers
-- 🔄 **Efficient Communication**: Mini-batch sampling with cross-partition neighbor fetching
-- 🎯 **Gradient Aggregation**: Support for synchronous and asynchronous updates
-- 💾 **Fault Tolerance**: Checkpointing and recovery from worker failures
-- 📊 **Scalable**: Handle graphs with 10M-100M+ nodes
+- **Distributed Training**: Partition graphs across multiple workers
+- **Efficient Communication**: Mini-batch sampling with cross-partition neighbor fetching
+- **Gradient Aggregation**: Support for synchronous and asynchronous updates
+- **Fault Tolerance**: Checkpointing and recovery from worker failures
+- **Scalable**: Handle graphs with 10M-100M+ nodes
 
 ## Architecture
 
